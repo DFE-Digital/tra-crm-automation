@@ -4,6 +4,8 @@ on:
   push:
     branches:
     - main
+    branches-ignore:
+    - reporting-solution-tool
 
 jobs:
   deploy_build:
